@@ -17,32 +17,33 @@
     <link rel="stylesheet" href="../assets/styles.css" media="screen">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class = "row">
-    <a class="navbar-brand" href="../index.html">Latitude</a>
-</div>
-<div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+  <a class="navbar-brand" href="../index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="temperature.html">Max Temp</a>
-            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="humidity.html">Humidity</a>
-            <a class="dropdown-item" href="wind.html">Wind Speed</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-</div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../comparison.html">Comparisons <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Data</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="temperature.html#">Max Temp</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="wind.html">Wind Speed</a>
+
+        </div>
+
+  </div>
+</nav>
 <body>
     
     <div class="container">
@@ -50,7 +51,10 @@
         <div class="row">
             <div class="col-md-7">
                 <article class="boxes"></article>
-                <img style='flex-flow: 100%' src="../resources/assets/images/Fig1.png" />
+                   <img style='float:left;width:800px;height:auto; margin-right:10px;' src="../resources/assets/images/Fig1.png" />
+                <p>Temparture seems to be hotter at lower latitudes</p>
+
+                </div>
 
                 </div>
            
@@ -60,8 +64,8 @@
                     <div class="viz">
                         <div class="icon-wrap"><a href="temperature.html"><img src="../resources/assets/images/Fig1.png" alt="Responsive image" class="imageNav-photo"></a></div>
                         <div class="icon-wrap"><a href="humidity.html"><img src="../resources/assets/images/Fig2.png" alt="Responsive image" class="imageNav-photo"></a></div>
-                        <div class="icon-wrap"><a href="cloudiness.html"><img src="../resources/assets/images/Fig2.png" alt="Responsive image" class="imageNav-photo"></a></div>
-                        <div class="icon-wrap"><a href="wind.html"><img src="../resources/assets/images/Fig2.png" alt="Responsive image" class="imageNav-photo"></a></div>
+                        <div class="icon-wrap"><a href="cloudiness.html"><img src="../resources/assets/images/Fig3.png" alt="Responsive image" class="imageNav-photo"></a></div>
+                        <div class="icon-wrap"><a href="wind.html"><img src="../resources/assets/images/Fig4.png" alt="Responsive image" class="imageNav-photo"></a></div>
                     </div>
                     </div>
                 </div>
